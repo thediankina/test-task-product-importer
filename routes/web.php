@@ -4,7 +4,9 @@ use App\Http\Controllers\ProductController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
 });
 
-Route::post('products/import',[ProductController::class ,'import']);
+Route::post('products/import',
+    [ProductController::class ,'import']
+);
