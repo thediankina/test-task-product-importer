@@ -12,8 +12,7 @@
         <input type="file" id="product-importer-input" name="upload">
         <button type="submit" id="product-importer-submit">Импорт</button>
     </form>
-</div>
-<div id="import-result">
+    <div id="import-result"></div>
 </div>
 </body>
 <script type="text/javascript">
